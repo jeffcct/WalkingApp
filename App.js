@@ -8,6 +8,8 @@ export default function App() {
   const [isRunning, setIsRunning] = useState(false);
   const [beginningLocation, setBLocation] = useState(null);
   const [location, setLocation] = useState(null);
+  const [dist, setDist] = useState(null);
+  const [farEnough, setFarEnough] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -23,7 +25,36 @@ export default function App() {
     })();
   }, []);
 
+  const distance = () => {
+    if (!location || !beginningLocation) {
+      alert('could not find location');
+      return 0;
+    }
 
+    var R = 6378.137;
+    var dLat = Math.abs(beginningLocation.coords.latitude * Math.PI / 180 - location.coords.latitude * Math.PI / 180);
+    var dLon = Math.abs(location.coords.longitude * Math.PI / 180 - location.coords.longitude * Math.PI / 180);
+    var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(beginningLocation.coords.latitude * Math.PI / 180) * Math.cos(location.coords.latitude * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    var d = R * c;
+    //console.log(d * 1000);
+    setDist(d * 1000);
+}
+
+
+  const checkDistance = () => {
+    distance();
+    if (dist != null) {
+      if (dist >= 100) {
+        toggleRun();
+        setFarEnough(true);
+      }
+    }
+    setFarEnough(false);
+
+  }
 
   const setStartPosition = () => {
     if (!location) {
@@ -35,11 +66,12 @@ export default function App() {
   };
 
   const toggleRun = () => {
-    setStartPosition();
-    if (beginningLocation) {
+    if (isRunning) {
       setIsRunning(!isRunning);
+      setBLocation(null);
     } else {
-      alert('We couldn\'t find your position!');
+      setStartPosition();
+      setIsRunning(!isRunning);
     }
   };
 
@@ -77,7 +109,7 @@ export default function App() {
           >
             <Text style={styles.buttonText}>{"Stop Run"}</Text>
           </TouchableOpacity>
-          <Button style="styles.button" onPress={setStartPosition} title={"Check Distance"}>
+          <Button style="styles.button" onPress={checkDistance} title={"Check Distance"}>
           <Text style={styles.buttonText}>Check Distance</Text>
           </Button>
         </View>
@@ -87,7 +119,10 @@ export default function App() {
           {JSON.stringify(location)}
         </Text>
         { beginningLocation ? (
-          <Text>{JSON.stringify(beginningLocation)}</Text>
+          <View>
+            <Text>{JSON.stringify(beginningLocation)}</Text>
+            <Text>{dist}</Text>
+          </View>
         ) : (
           <></>
         )}
