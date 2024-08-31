@@ -1,0 +1,1890 @@
+Index: node_modules/xcode/node_modules/.bin/uuid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../uuid/dist/bin/uuid
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/xcode/node_modules/.bin/uuid b/node_modules/xcode/node_modules/.bin/uuid
+--- a/node_modules/xcode/node_modules/.bin/uuid	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/xcode/node_modules/.bin/uuid	(date 1725079074629)
+@@ -1,1 +1,16 @@
+-../uuid/dist/bin/uuid
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../uuid/dist/bin/uuid" "$@"
++else 
++  exec node  "$basedir/../uuid/dist/bin/uuid" "$@"
++fi
+Index: node_modules/cacache/node_modules/.bin/glob
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../glob/dist/esm/bin.mjs
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/cacache/node_modules/.bin/glob b/node_modules/cacache/node_modules/.bin/glob
+--- a/node_modules/cacache/node_modules/.bin/glob	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/cacache/node_modules/.bin/glob	(date 1725079074593)
+@@ -1,1 +1,16 @@
+-../glob/dist/esm/bin.mjs
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../glob/dist/esm/bin.mjs" "$@"
++else 
++  exec node  "$basedir/../glob/dist/esm/bin.mjs" "$@"
++fi
+Index: node_modules/make-dir/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/make-dir/node_modules/.bin/semver b/node_modules/make-dir/node_modules/.bin/semver
+--- a/node_modules/make-dir/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/make-dir/node_modules/.bin/semver	(date 1725079074617)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver" "$@"
++fi
+Index: node_modules/.bin/md5-file
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../md5-file/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/md5-file b/node_modules/.bin/md5-file
+--- a/node_modules/.bin/md5-file	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/md5-file	(date 1725079074503)
+@@ -1,1 +1,16 @@
+-../md5-file/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../md5-file/cli.js" "$@"
++else 
++  exec node  "$basedir/../md5-file/cli.js" "$@"
++fi
+Index: node_modules/.bin/resolve
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../resolve/bin/resolve
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/resolve b/node_modules/.bin/resolve
+--- a/node_modules/.bin/resolve	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/resolve	(date 1725079074527)
+@@ -1,1 +1,16 @@
+-../resolve/bin/resolve
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../resolve/bin/resolve" "$@"
++else 
++  exec node  "$basedir/../resolve/bin/resolve" "$@"
++fi
+Index: node_modules/.bin/is-docker
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../is-docker/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/is-docker b/node_modules/.bin/is-docker
+--- a/node_modules/.bin/is-docker	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/is-docker	(date 1725079074490)
+@@ -1,1 +1,16 @@
+-../is-docker/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../is-docker/cli.js" "$@"
++else 
++  exec node  "$basedir/../is-docker/cli.js" "$@"
++fi
+Index: node_modules/.bin/jsesc
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../jsesc/bin/jsesc
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/jsesc b/node_modules/.bin/jsesc
+--- a/node_modules/.bin/jsesc	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/jsesc	(date 1725079074495)
+@@ -1,1 +1,16 @@
+-../jsesc/bin/jsesc
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../jsesc/bin/jsesc" "$@"
++else 
++  exec node  "$basedir/../jsesc/bin/jsesc" "$@"
++fi
+Index: node_modules/.bin/regjsparser
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../regjsparser/bin/parser
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/regjsparser b/node_modules/.bin/regjsparser
+--- a/node_modules/.bin/regjsparser	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/regjsparser	(date 1725079074524)
+@@ -1,1 +1,16 @@
+-../regjsparser/bin/parser
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../regjsparser/bin/parser" "$@"
++else 
++  exec node  "$basedir/../regjsparser/bin/parser" "$@"
++fi
+Index: node_modules/.bin/uuid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../uuid/dist/bin/uuid
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/uuid b/node_modules/.bin/uuid
+--- a/node_modules/.bin/uuid	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/uuid	(date 1725079074538)
+@@ -1,1 +1,16 @@
+-../uuid/dist/bin/uuid
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../uuid/dist/bin/uuid" "$@"
++else 
++  exec node  "$basedir/../uuid/dist/bin/uuid" "$@"
++fi
+Index: node_modules/.bin/sucrase-node
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../sucrase/bin/sucrase-node
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/sucrase-node b/node_modules/.bin/sucrase-node
+--- a/node_modules/.bin/sucrase-node	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/sucrase-node	(date 1725079074535)
+@@ -1,1 +1,16 @@
+-../sucrase/bin/sucrase-node
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../sucrase/bin/sucrase-node" "$@"
++else 
++  exec node  "$basedir/../sucrase/bin/sucrase-node" "$@"
++fi
+Index: node_modules/send/node_modules/.bin/mime
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../mime/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/send/node_modules/.bin/mime b/node_modules/send/node_modules/.bin/mime
+--- a/node_modules/send/node_modules/.bin/mime	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/send/node_modules/.bin/mime	(date 1725079074625)
+@@ -1,1 +1,16 @@
+-../mime/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../mime/cli.js" "$@"
++else 
++  exec node  "$basedir/../mime/cli.js" "$@"
++fi
+Index: node_modules/tar/node_modules/.bin/mkdirp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../mkdirp/bin/cmd.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/tar/node_modules/.bin/mkdirp b/node_modules/tar/node_modules/.bin/mkdirp
+--- a/node_modules/tar/node_modules/.bin/mkdirp	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/tar/node_modules/.bin/mkdirp	(date 1725079074626)
+@@ -1,1 +1,16 @@
+-../mkdirp/bin/cmd.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../mkdirp/bin/cmd.js" "$@"
++else 
++  exec node  "$basedir/../mkdirp/bin/cmd.js" "$@"
++fi
+Index: node_modules/temp/node_modules/.bin/rimraf
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../rimraf/bin.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/temp/node_modules/.bin/rimraf b/node_modules/temp/node_modules/.bin/rimraf
+--- a/node_modules/temp/node_modules/.bin/rimraf	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/temp/node_modules/.bin/rimraf	(date 1725079074628)
+@@ -1,1 +1,16 @@
+-../rimraf/bin.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../rimraf/bin.js" "$@"
++else 
++  exec node  "$basedir/../rimraf/bin.js" "$@"
++fi
+Index: node_modules/execa/node_modules/.bin/which
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../which/bin/which
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/execa/node_modules/.bin/which b/node_modules/execa/node_modules/.bin/which
+--- a/node_modules/execa/node_modules/.bin/which	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/execa/node_modules/.bin/which	(date 1725079074615)
+@@ -1,1 +1,16 @@
+-../which/bin/which
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../which/bin/which" "$@"
++else 
++  exec node  "$basedir/../which/bin/which" "$@"
++fi
+Index: node_modules/.bin/yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../yaml/bin.mjs
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/yaml b/node_modules/.bin/yaml
+--- a/node_modules/.bin/yaml	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/yaml	(date 1725079074541)
+@@ -1,1 +1,16 @@
+-../yaml/bin.mjs
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../yaml/bin.mjs" "$@"
++else 
++  exec node  "$basedir/../yaml/bin.mjs" "$@"
++fi
+Index: node_modules/execa/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/execa/node_modules/.bin/semver b/node_modules/execa/node_modules/.bin/semver
+--- a/node_modules/execa/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/execa/node_modules/.bin/semver	(date 1725079074603)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver" "$@"
++fi
+Index: node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/semver b/node_modules/.bin/semver
+--- a/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/semver	(date 1725079074531)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/.bin/excpretty
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../@expo/xcpretty/build/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/excpretty b/node_modules/.bin/excpretty
+--- a/node_modules/.bin/excpretty	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/excpretty	(date 1725079074479)
+@@ -1,1 +1,16 @@
+-../@expo/xcpretty/build/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../@expo/xcpretty/build/cli.js" "$@"
++else 
++  exec node  "$basedir/../@expo/xcpretty/build/cli.js" "$@"
++fi
+Index: node_modules/npm-package-arg/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/npm-package-arg/node_modules/.bin/semver b/node_modules/npm-package-arg/node_modules/.bin/semver
+--- a/node_modules/npm-package-arg/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/npm-package-arg/node_modules/.bin/semver	(date 1725079074619)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver" "$@"
++fi
+Index: node_modules/.bin/esparse
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../esprima/bin/esparse.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/esparse b/node_modules/.bin/esparse
+--- a/node_modules/.bin/esparse	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/esparse	(date 1725079074475)
+@@ -1,1 +1,16 @@
+-../esprima/bin/esparse.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../esprima/bin/esparse.js" "$@"
++else 
++  exec node  "$basedir/../esprima/bin/esparse.js" "$@"
++fi
+Index: node_modules/.bin/parser
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../@babel/parser/bin/babel-parser.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/parser b/node_modules/.bin/parser
+--- a/node_modules/.bin/parser	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/parser	(date 1725079074516)
+@@ -1,1 +1,16 @@
+-../@babel/parser/bin/babel-parser.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../@babel/parser/bin/babel-parser.js" "$@"
++else 
++  exec node  "$basedir/../@babel/parser/bin/babel-parser.js" "$@"
++fi
+Index: node_modules/@expo/devcert/node_modules/.bin/glob
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../glob/dist/esm/bin.mjs
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@expo/devcert/node_modules/.bin/glob b/node_modules/@expo/devcert/node_modules/.bin/glob
+--- a/node_modules/@expo/devcert/node_modules/.bin/glob	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@expo/devcert/node_modules/.bin/glob	(date 1725079074576)
+@@ -1,1 +1,16 @@
+-../glob/dist/esm/bin.mjs
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../glob/dist/esm/bin.mjs" "$@"
++else 
++  exec node  "$basedir/../glob/dist/esm/bin.mjs" "$@"
++fi
+Index: node_modules/.bin/detect-libc
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../detect-libc/bin/detect-libc.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/detect-libc b/node_modules/.bin/detect-libc
+--- a/node_modules/.bin/detect-libc	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/detect-libc	(date 1725079074471)
+@@ -1,1 +1,16 @@
+-../detect-libc/bin/detect-libc.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../detect-libc/bin/detect-libc.js" "$@"
++else 
++  exec node  "$basedir/../detect-libc/bin/detect-libc.js" "$@"
++fi
+Index: node_modules/@expo/config-plugins/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@expo/config-plugins/node_modules/.bin/semver b/node_modules/@expo/config-plugins/node_modules/.bin/semver
+--- a/node_modules/@expo/config-plugins/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@expo/config-plugins/node_modules/.bin/semver	(date 1725079074562)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/.bin/update-browserslist-db
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../update-browserslist-db/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/update-browserslist-db b/node_modules/.bin/update-browserslist-db
+--- a/node_modules/.bin/update-browserslist-db	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/update-browserslist-db	(date 1725079074537)
+@@ -1,1 +1,16 @@
+-../update-browserslist-db/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../update-browserslist-db/cli.js" "$@"
++else 
++  exec node  "$basedir/../update-browserslist-db/cli.js" "$@"
++fi
+Index: node_modules/.bin/logkitty
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../logkitty/bin/logkitty.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/logkitty b/node_modules/.bin/logkitty
+--- a/node_modules/.bin/logkitty	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/logkitty	(date 1725079074498)
+@@ -1,1 +1,16 @@
+-../logkitty/bin/logkitty.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../logkitty/bin/logkitty.js" "$@"
++else 
++  exec node  "$basedir/../logkitty/bin/logkitty.js" "$@"
++fi
+Index: node_modules/.package-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.package-lock.json b/node_modules/.package-lock.json
+--- a/node_modules/.package-lock.json	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.package-lock.json	(date 1725079074558)
+@@ -9506,6 +9506,25 @@
+         "url": "https://opencollective.com/parcel"
+       }
+     },
++    "node_modules/lightningcss-win32-x64-msvc": {
++      "version": "1.19.0",
++      "resolved": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.19.0.tgz",
++      "integrity": "sha512-C+VuUTeSUOAaBZZOPT7Etn/agx/MatzJzGRkeV+zEABmPuntv1zihncsi+AyGmjkkzq3wVedEy7h0/4S84mUtg==",
++      "cpu": [
++        "x64"
++      ],
++      "optional": true,
++      "os": [
++        "win32"
++      ],
++      "engines": {
++        "node": ">= 12.0.0"
++      },
++      "funding": {
++        "type": "opencollective",
++        "url": "https://opencollective.com/parcel"
++      }
++    },
+     "node_modules/lines-and-columns": {
+       "version": "1.2.4",
+       "resolved": "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz",
+Index: node_modules/@rnx-kit/chromium-edge-launcher/node_modules/.bin/mkdirp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../mkdirp/bin/cmd.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@rnx-kit/chromium-edge-launcher/node_modules/.bin/mkdirp b/node_modules/@rnx-kit/chromium-edge-launcher/node_modules/.bin/mkdirp
+--- a/node_modules/@rnx-kit/chromium-edge-launcher/node_modules/.bin/mkdirp	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@rnx-kit/chromium-edge-launcher/node_modules/.bin/mkdirp	(date 1725079074590)
+@@ -1,1 +1,16 @@
+-../mkdirp/bin/cmd.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../mkdirp/bin/cmd.js" "$@"
++else 
++  exec node  "$basedir/../mkdirp/bin/cmd.js" "$@"
++fi
+Index: node_modules/@react-native-community/cli-tools/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@react-native-community/cli-tools/node_modules/.bin/semver b/node_modules/@react-native-community/cli-tools/node_modules/.bin/semver
+--- a/node_modules/@react-native-community/cli-tools/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@react-native-community/cli-tools/node_modules/.bin/semver	(date 1725079074587)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/.bin/esvalidate
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../esprima/bin/esvalidate.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/esvalidate b/node_modules/.bin/esvalidate
+--- a/node_modules/.bin/esvalidate	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/esvalidate	(date 1725079074477)
+@@ -1,1 +1,16 @@
+-../esprima/bin/esvalidate.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../esprima/bin/esvalidate.js" "$@"
++else 
++  exec node  "$basedir/../esprima/bin/esvalidate.js" "$@"
++fi
+Index: node_modules/.bin/rimraf
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../rimraf/bin.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/rimraf b/node_modules/.bin/rimraf
+--- a/node_modules/.bin/rimraf	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/rimraf	(date 1725079074528)
+@@ -1,1 +1,16 @@
+-../rimraf/bin.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../rimraf/bin.js" "$@"
++else 
++  exec node  "$basedir/../rimraf/bin.js" "$@"
++fi
+Index: node_modules/regjsparser/node_modules/.bin/jsesc
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../jsesc/bin/jsesc
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/regjsparser/node_modules/.bin/jsesc b/node_modules/regjsparser/node_modules/.bin/jsesc
+--- a/node_modules/regjsparser/node_modules/.bin/jsesc	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/regjsparser/node_modules/.bin/jsesc	(date 1725079074622)
+@@ -1,1 +1,16 @@
+-../jsesc/bin/jsesc
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../jsesc/bin/jsesc" "$@"
++else 
++  exec node  "$basedir/../jsesc/bin/jsesc" "$@"
++fi
+Index: node_modules/.bin/expo-internal
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../@expo/cli/build/bin/cli
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/expo-internal b/node_modules/.bin/expo-internal
+--- a/node_modules/.bin/expo-internal	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/expo-internal	(date 1725079074483)
+@@ -1,1 +1,16 @@
+-../@expo/cli/build/bin/cli
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../@expo/cli/build/bin/cli" "$@"
++else 
++  exec node  "$basedir/../@expo/cli/build/bin/cli" "$@"
++fi
+Index: node_modules/.bin/expo
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../expo/bin/cli
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/expo b/node_modules/.bin/expo
+--- a/node_modules/.bin/expo	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/expo	(date 1725079074482)
+@@ -1,1 +1,16 @@
+-../expo/bin/cli
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../expo/bin/cli" "$@"
++else 
++  exec node  "$basedir/../expo/bin/cli" "$@"
++fi
+Index: node_modules/@expo/config/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@expo/config/node_modules/.bin/semver b/node_modules/@expo/config/node_modules/.bin/semver
+--- a/node_modules/@expo/config/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@expo/config/node_modules/.bin/semver	(date 1725079074565)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/.bin/print-chrome-path
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../chrome-launcher/bin/print-chrome-path.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/print-chrome-path b/node_modules/.bin/print-chrome-path
+--- a/node_modules/.bin/print-chrome-path	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/print-chrome-path	(date 1725079074517)
+@@ -1,1 +1,16 @@
+-../chrome-launcher/bin/print-chrome-path.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../chrome-launcher/bin/print-chrome-path.js" "$@"
++else 
++  exec node  "$basedir/../chrome-launcher/bin/print-chrome-path.js" "$@"
++fi
+Index: node_modules/@expo/image-utils/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@expo/image-utils/node_modules/.bin/semver b/node_modules/@expo/image-utils/node_modules/.bin/semver
+--- a/node_modules/@expo/image-utils/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@expo/image-utils/node_modules/.bin/semver	(date 1725079074578)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/.bin/qrcode-terminal
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../qrcode-terminal/bin/qrcode-terminal.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/qrcode-terminal b/node_modules/.bin/qrcode-terminal
+--- a/node_modules/.bin/qrcode-terminal	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/qrcode-terminal	(date 1725079074519)
+@@ -1,1 +1,16 @@
+-../qrcode-terminal/bin/qrcode-terminal.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../qrcode-terminal/bin/qrcode-terminal.js" "$@"
++else 
++  exec node  "$basedir/../qrcode-terminal/bin/qrcode-terminal.js" "$@"
++fi
+Index: node_modules/@react-native-community/cli/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@react-native-community/cli/node_modules/.bin/semver b/node_modules/@react-native-community/cli/node_modules/.bin/semver
+--- a/node_modules/@react-native-community/cli/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@react-native-community/cli/node_modules/.bin/semver	(date 1725079074590)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/@expo/prebuild-config/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@expo/prebuild-config/node_modules/.bin/semver b/node_modules/@expo/prebuild-config/node_modules/.bin/semver
+--- a/node_modules/@expo/prebuild-config/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@expo/prebuild-config/node_modules/.bin/semver	(date 1725079074580)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/.bin/browserslist
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../browserslist/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/browserslist b/node_modules/.bin/browserslist
+--- a/node_modules/.bin/browserslist	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/browserslist	(date 1725079074469)
+@@ -1,1 +1,16 @@
+-../browserslist/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../browserslist/cli.js" "$@"
++else 
++  exec node  "$basedir/../browserslist/cli.js" "$@"
++fi
+Index: node_modules/.bin/js-yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../js-yaml/bin/js-yaml.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/js-yaml b/node_modules/.bin/js-yaml
+--- a/node_modules/.bin/js-yaml	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/js-yaml	(date 1725079074491)
+@@ -1,1 +1,16 @@
+-../js-yaml/bin/js-yaml.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../js-yaml/bin/js-yaml.js" "$@"
++else 
++  exec node  "$basedir/../js-yaml/bin/js-yaml.js" "$@"
++fi
+Index: node_modules/@npmcli/fs/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@npmcli/fs/node_modules/.bin/semver b/node_modules/@npmcli/fs/node_modules/.bin/semver
+--- a/node_modules/@npmcli/fs/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@npmcli/fs/node_modules/.bin/semver	(date 1725079074584)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/@react-native-community/cli-doctor/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@react-native-community/cli-doctor/node_modules/.bin/semver b/node_modules/@react-native-community/cli-doctor/node_modules/.bin/semver
+--- a/node_modules/@react-native-community/cli-doctor/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@react-native-community/cli-doctor/node_modules/.bin/semver	(date 1725079074585)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/.bin/expo-modules-autolinking
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../expo-modules-autolinking/bin/expo-modules-autolinking.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/expo-modules-autolinking b/node_modules/.bin/expo-modules-autolinking
+--- a/node_modules/.bin/expo-modules-autolinking	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/expo-modules-autolinking	(date 1725079074484)
+@@ -1,1 +1,16 @@
+-../expo-modules-autolinking/bin/expo-modules-autolinking.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../expo-modules-autolinking/bin/expo-modules-autolinking.js" "$@"
++else 
++  exec node  "$basedir/../expo-modules-autolinking/bin/expo-modules-autolinking.js" "$@"
++fi
+Index: node_modules/@expo/cli/node_modules/.bin/semver
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../semver/bin/semver.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@expo/cli/node_modules/.bin/semver b/node_modules/@expo/cli/node_modules/.bin/semver
+--- a/node_modules/@expo/cli/node_modules/.bin/semver	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@expo/cli/node_modules/.bin/semver	(date 1725079074560)
+@@ -1,1 +1,16 @@
+-../semver/bin/semver.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../semver/bin/semver.js" "$@"
++else 
++  exec node  "$basedir/../semver/bin/semver.js" "$@"
++fi
+Index: node_modules/.bin/nanoid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../nanoid/bin/nanoid.cjs
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/nanoid b/node_modules/.bin/nanoid
+--- a/node_modules/.bin/nanoid	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/nanoid	(date 1725079074513)
+@@ -1,1 +1,16 @@
+-../nanoid/bin/nanoid.cjs
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../nanoid/bin/nanoid.cjs" "$@"
++else 
++  exec node  "$basedir/../nanoid/bin/nanoid.cjs" "$@"
++fi
+Index: node_modules/.bin/mime
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../mime/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/mime b/node_modules/.bin/mime
+--- a/node_modules/.bin/mime	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/mime	(date 1725079074509)
+@@ -1,1 +1,16 @@
+-../mime/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../mime/cli.js" "$@"
++else 
++  exec node  "$basedir/../mime/cli.js" "$@"
++fi
+Index: node_modules/.bin/image-size
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../image-size/bin/image-size.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/image-size b/node_modules/.bin/image-size
+--- a/node_modules/.bin/image-size	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/image-size	(date 1725079074487)
+@@ -1,1 +1,16 @@
+-../image-size/bin/image-size.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../image-size/bin/image-size.js" "$@"
++else 
++  exec node  "$basedir/../image-size/bin/image-size.js" "$@"
++fi
+Index: node_modules/.bin/acorn
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../acorn/bin/acorn
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/acorn b/node_modules/.bin/acorn
+--- a/node_modules/.bin/acorn	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/acorn	(date 1725079074467)
+@@ -1,1 +1,16 @@
+-../acorn/bin/acorn
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../acorn/bin/acorn" "$@"
++else 
++  exec node  "$basedir/../acorn/bin/acorn" "$@"
++fi
+Index: node_modules/.bin/metro-symbolicate
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../metro-symbolicate/src/index.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/metro-symbolicate b/node_modules/.bin/metro-symbolicate
+--- a/node_modules/.bin/metro-symbolicate	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/metro-symbolicate	(date 1725079074506)
+@@ -1,1 +1,16 @@
+-../metro-symbolicate/src/index.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../metro-symbolicate/src/index.js" "$@"
++else 
++  exec node  "$basedir/../metro-symbolicate/src/index.js" "$@"
++fi
+Index: node_modules/.bin/jscodeshift
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../jscodeshift/bin/jscodeshift.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/jscodeshift b/node_modules/.bin/jscodeshift
+--- a/node_modules/.bin/jscodeshift	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/jscodeshift	(date 1725079074493)
+@@ -1,1 +1,16 @@
+-../jscodeshift/bin/jscodeshift.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../jscodeshift/bin/jscodeshift.js" "$@"
++else 
++  exec node  "$basedir/../jscodeshift/bin/jscodeshift.js" "$@"
++fi
+Index: node_modules/.bin/node-which
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../which/bin/node-which
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/node-which b/node_modules/.bin/node-which
+--- a/node_modules/.bin/node-which	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/node-which	(date 1725079074514)
+@@ -1,1 +1,16 @@
+-../which/bin/node-which
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../which/bin/node-which" "$@"
++else 
++  exec node  "$basedir/../which/bin/node-which" "$@"
++fi
+Index: node_modules/.bin/envinfo
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../envinfo/dist/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/envinfo b/node_modules/.bin/envinfo
+--- a/node_modules/.bin/envinfo	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/envinfo	(date 1725079074472)
+@@ -1,1 +1,16 @@
+-../envinfo/dist/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../envinfo/dist/cli.js" "$@"
++else 
++  exec node  "$basedir/../envinfo/dist/cli.js" "$@"
++fi
+Index: node_modules/.bin/terser
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../terser/bin/terser
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/terser b/node_modules/.bin/terser
+--- a/node_modules/.bin/terser	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/terser	(date 1725079074536)
+@@ -1,1 +1,16 @@
+-../terser/bin/terser
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../terser/bin/terser" "$@"
++else 
++  exec node  "$basedir/../terser/bin/terser" "$@"
++fi
+Index: node_modules/.bin/mkdirp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../mkdirp/bin/cmd.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/mkdirp b/node_modules/.bin/mkdirp
+--- a/node_modules/.bin/mkdirp	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/mkdirp	(date 1725079074511)
+@@ -1,1 +1,16 @@
+-../mkdirp/bin/cmd.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../mkdirp/bin/cmd.js" "$@"
++else 
++  exec node  "$basedir/../mkdirp/bin/cmd.js" "$@"
++fi
+Index: node_modules/.bin/rc
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../rc/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/rc b/node_modules/.bin/rc
+--- a/node_modules/.bin/rc	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/rc	(date 1725079074521)
+@@ -1,1 +1,16 @@
+-../rc/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../rc/cli.js" "$@"
++else 
++  exec node  "$basedir/../rc/cli.js" "$@"
++fi
+Index: node_modules/.bin/metro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../metro/src/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/metro b/node_modules/.bin/metro
+--- a/node_modules/.bin/metro	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/metro	(date 1725079074505)
+@@ -1,1 +1,16 @@
+-../metro/src/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../metro/src/cli.js" "$@"
++else 
++  exec node  "$basedir/../metro/src/cli.js" "$@"
++fi
+Index: node_modules/@expo/xcpretty/node_modules/.bin/js-yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../js-yaml/bin/js-yaml.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/@expo/xcpretty/node_modules/.bin/js-yaml b/node_modules/@expo/xcpretty/node_modules/.bin/js-yaml
+--- a/node_modules/@expo/xcpretty/node_modules/.bin/js-yaml	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/@expo/xcpretty/node_modules/.bin/js-yaml	(date 1725079074582)
+@@ -1,1 +1,16 @@
+-../js-yaml/bin/js-yaml.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../js-yaml/bin/js-yaml.js" "$@"
++else 
++  exec node  "$basedir/../js-yaml/bin/js-yaml.js" "$@"
++fi
+Index: node_modules/.bin/rnc-cli
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../@react-native-community/cli/build/bin.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/rnc-cli b/node_modules/.bin/rnc-cli
+--- a/node_modules/.bin/rnc-cli	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/rnc-cli	(date 1725079074530)
+@@ -1,1 +1,16 @@
+-../@react-native-community/cli/build/bin.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../@react-native-community/cli/build/bin.js" "$@"
++else 
++  exec node  "$basedir/../@react-native-community/cli/build/bin.js" "$@"
++fi
+Index: node_modules/.bin/sucrase
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../sucrase/bin/sucrase
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/sucrase b/node_modules/.bin/sucrase
+--- a/node_modules/.bin/sucrase	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/sucrase	(date 1725079074533)
+@@ -1,1 +1,16 @@
+-../sucrase/bin/sucrase
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../sucrase/bin/sucrase" "$@"
++else 
++  exec node  "$basedir/../sucrase/bin/sucrase" "$@"
++fi
+Index: node_modules/.bin/react-native
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../react-native/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/react-native b/node_modules/.bin/react-native
+--- a/node_modules/.bin/react-native	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/react-native	(date 1725079074523)
+@@ -1,1 +1,16 @@
+-../react-native/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../react-native/cli.js" "$@"
++else 
++  exec node  "$basedir/../react-native/cli.js" "$@"
++fi
+Index: node_modules/.bin/fxparser
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../fast-xml-parser/src/cli/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/fxparser b/node_modules/.bin/fxparser
+--- a/node_modules/.bin/fxparser	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/fxparser	(date 1725079074486)
+@@ -1,1 +1,16 @@
+-../fast-xml-parser/src/cli/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../fast-xml-parser/src/cli/cli.js" "$@"
++else 
++  exec node  "$basedir/../fast-xml-parser/src/cli/cli.js" "$@"
++fi
+Index: node_modules/.bin/json5
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../json5/lib/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/json5 b/node_modules/.bin/json5
+--- a/node_modules/.bin/json5	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/json5	(date 1725079074497)
+@@ -1,1 +1,16 @@
+-../json5/lib/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../json5/lib/cli.js" "$@"
++else 
++  exec node  "$basedir/../json5/lib/cli.js" "$@"
++fi
+Index: node_modules/.bin/loose-envify
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>../loose-envify/cli.js
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.bin/loose-envify b/node_modules/.bin/loose-envify
+--- a/node_modules/.bin/loose-envify	(revision aae841ad1238e2f866ad8ffbd4d45339b5b520ca)
++++ b/node_modules/.bin/loose-envify	(date 1725079074501)
+@@ -1,1 +1,16 @@
+-../loose-envify/cli.js
+\ No newline at end of file
++#!/bin/sh
++basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
++
++case `uname` in
++    *CYGWIN*|*MINGW*|*MSYS*)
++        if command -v cygpath > /dev/null 2>&1; then
++            basedir=`cygpath -w "$basedir"`
++        fi
++    ;;
++esac
++
++if [ -x "$basedir/node" ]; then
++  exec "$basedir/node"  "$basedir/../loose-envify/cli.js" "$@"
++else 
++  exec node  "$basedir/../loose-envify/cli.js" "$@"
++fi

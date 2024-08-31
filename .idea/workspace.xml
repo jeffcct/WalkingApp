@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d38c501-8de1-421b-87c9-25a7a2406083" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/acorn.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/acorn.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browserslist.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/browserslist.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/detect-libc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/detect-libc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/detect-libc.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/detect-libc.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/envinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/envinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/envinfo.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/envinfo.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esparse.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/esparse.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/esvalidate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/excpretty" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/excpretty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/excpretty.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/excpretty.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/expo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/expo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/expo-modules-autolinking" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/expo-modules-autolinking" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/expo-modules-autolinking.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/expo-modules-autolinking.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/expo.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/expo.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/fxparser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/fxparser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/fxparser.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/fxparser.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/image-size" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/image-size" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/image-size.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/image-size.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/is-docker" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/is-docker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/is-docker.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/is-docker.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/js-yaml.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/js-yaml.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jscodeshift" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/jscodeshift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jscodeshift.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/jscodeshift.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jsesc.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/jsesc.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/json5.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/json5.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/logkitty" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/logkitty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/logkitty.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/logkitty.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/md5-file" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/md5-file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/md5-file.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/md5-file.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/metro" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/metro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/metro-symbolicate" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/metro-symbolicate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/metro-symbolicate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/metro-symbolicate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/metro.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/metro.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mime.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nanoid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nanoid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nanoid.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nanoid.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-which" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/node-which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-which.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/node-which.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/print-chrome-path" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/print-chrome-path" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/print-chrome-path.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/print-chrome-path.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/qrcode-terminal" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/qrcode-terminal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/qrcode-terminal.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/qrcode-terminal.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rc.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rc.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/react-native" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/react-native" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/react-native.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/react-native.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/regjsparser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/regjsparser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/regjsparser.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/regjsparser.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/resolve" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/resolve" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/resolve.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/resolve.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rnc-cli" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rnc-cli" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rnc-cli.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rnc-cli.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sucrase" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase-node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sucrase-node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase-node.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sucrase-node.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sucrase.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/terser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/terser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/terser.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/terser.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/update-browserslist-db" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/update-browserslist-db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/update-browserslist-db.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/update-browserslist-db.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/yaml.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/yaml.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/banner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/changelog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/dist/hammer.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/dist/hammer.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/dist/hammer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/dist/hammer.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/dist/hammer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/dist/hammer.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/replace.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/hammer.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/hammer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/input/mouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/input/pointerevent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/input/singletouch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/input/touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/input/touchmouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/compute-delta-xy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/compute-input-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/compute-interval-input-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/create-input-instance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/get-angle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/get-center.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/get-direction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/get-distance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/get-rotation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/get-scale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/get-velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/input-constructor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/input-consts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/input-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/inputjs/simple-clone-input-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizerjs/direction-str.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizerjs/get-recognizer-by-name-if-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizerjs/recognizer-constructor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizerjs/recognizer-consts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizerjs/state-str.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizers/attribute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizers/pan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizers/pinch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizers/press.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizers/rotate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizers/swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/recognizers/tap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/touchactionjs/clean-touch-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/touchactionjs/get-touchaction-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/touchactionjs/touchaction-Consts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/touchactionjs/touchaction-constructor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/add-event-listeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/assign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/bind-fn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/bool-or-fn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/deprecate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/each.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/get-window-for-element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/has-parent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/if-undefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/in-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/in-str.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/inherit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/invoke-array-arg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/merge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/prefixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/remove-event-listeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/set-timeout-context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/split-str.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/to-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/unique-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/unique-id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/src/utils/utils-consts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/testrollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/compute_touch_action.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/nested.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/simulator-googlemaps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/simulator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/touchaction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/manual/visual.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/assets/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/gestures/test_pan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/gestures/test_pinch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/gestures/test_swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_enable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_gestures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_hammer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_jquery_plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_multiple_taps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_nested_gesture_recognizers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_propagation_bubble.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_require_failure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_simultaneous_recognition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@egjs/hammerjs/tests/unit/test_utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/AllowBackup.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/AllowBackup.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/AllowBackup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/AllowBackup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/BuildProperties.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/BuildProperties.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/BuildProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/BuildProperties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Colors.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Colors.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/EasBuild.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/EasBuild.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/EasBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/EasBuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/EasBuildGradleScript.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/EasBuildGradleScript.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/EasBuildGradleScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/EasBuildGradleScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/GoogleMapsApiKey.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/GoogleMapsApiKey.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/GoogleMapsApiKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/GoogleMapsApiKey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/GoogleServices.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/GoogleServices.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/GoogleServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/GoogleServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/IntentFilters.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/IntentFilters.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/IntentFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/IntentFilters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Manifest.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Manifest.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Name.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Name.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Name.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Name.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Orientation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Orientation.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Orientation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Orientation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Package.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Package.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Package.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/Package.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/codeMod.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/codeMod.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/codeMod.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/codeMod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@expo/config-plugins/build/android/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "al77x"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jeffcct/WalkingApp.git",
+    "accountId": "e8638c2c-f0a0-48a3-867e-2f6c9281d979"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2lPPYrK82ZaiyznRBfrY8b9yZL9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "create-header",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/WalkingApp"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d38c501-8de1-421b-87c9-25a7a2406083" name="Changes" comment="" />
+      <created>1725078789277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725078789277</updated>
+    </task>
+    <servers />
+  </component>
+</project>
