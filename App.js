@@ -1,3 +1,4 @@
+
 import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
@@ -5,10 +6,10 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 // Import the screen components
-import HomeScreen from './Screens/HomeScreen';
-import HistoryScreen from './Screens/HistoryScreen';
-import ChallengesScreen from './Screens/ChallengesScreen';
-import ProfileScreen from './Screens/ProfileScreen';
+import HomeScreen from "./Screens/HomeScreen";
+import HistoryScreen from "./Screens/HistoryScreen";
+import ChallengesScreen from "./Screens/ChallengesScreen";
+import ProfileScreen from "./Screens/ProfileScreen";
 
 const Tab = createBottomTabNavigator();
 
