@@ -26,24 +26,21 @@ export default function App() {
 
 
   const setStartPosition = () => {
-    useEffect(() => {
-      (async () => {
-        
-        let { status } = await Location.requestForegroundPermissionsAsync();
-        if (status !== 'granted') {
-          alert('Permission to access location was denied');
-          return;
-        }
-  
-        let location = await Location.getCurrentPositionAsync({});
-        setBLocation(location);
-      })();
-    }, []);
+    if (!location) {
+      alert('Permission to access location was denied');
+      setBLocation(null);
+      return;
+    }
+    setBLocation(location);
   };
 
   const toggleRun = () => {
-    setIsRunning(!isRunning);
     setStartPosition();
+    if (beginningLocation) {
+      setIsRunning(!isRunning);
+    } else {
+      alert('We couldn\'t find your position!');
+    }
   };
 
   return (
@@ -63,19 +60,37 @@ export default function App() {
         />
       </MapView>
 
-      <TouchableOpacity
-        style={isRunning ? styles.stopButton : styles.startButton}
-        onPress={toggleRun}
-      >
-        <Text style={styles.buttonText}>{isRunning ? "Stop Run" : "Start Run"}</Text>
-      </TouchableOpacity>
-      <Button style="styles.button" onPress={setStartPosition} title={"Check Distance"}>
-        <Text style={styles.buttonText}>Check Distance</Text>
-      </Button>
+      {!isRunning ? (
+        <View>
+          <TouchableOpacity
+            style={styles.startButton}
+            onPress={toggleRun}
+          >
+            <Text style={styles.buttonText}>{"Start Run"}</Text>
+          </TouchableOpacity>
+        </View>
+      ) : (
+        <View>
+          <TouchableOpacity
+            style={styles.stopButton}
+            onPress={toggleRun}
+          >
+            <Text style={styles.buttonText}>{"Stop Run"}</Text>
+          </TouchableOpacity>
+          <Button style="styles.button" onPress={setStartPosition} title={"Check Distance"}>
+          <Text style={styles.buttonText}>Check Distance</Text>
+          </Button>
+        </View>
+      )}
       <View>
         <Text>
           {JSON.stringify(location)}
         </Text>
+        { beginningLocation ? (
+          <Text>{JSON.stringify(beginningLocation)}</Text>
+        ) : (
+          <></>
+        )}
       </View>
     </View>
   );
