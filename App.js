@@ -37,6 +37,7 @@ function MyTabs() {
         name="History"
         component={HistoryScreen}
         options={{
+          headerShown: false,
           tabBarLabel: "History",
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="history" color={color} size={size} />
@@ -47,6 +48,7 @@ function MyTabs() {
         name="Challenges"
         component={ChallengesScreen}
         options={{
+          headerShown: false,
           tabBarLabel: "Challenges",
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="trophy" color={color} size={size} />
@@ -57,6 +59,7 @@ function MyTabs() {
         name="Profile"
         component={ProfileScreen}
         options={{
+          headerShown: false,
           tabBarLabel: "Profile",
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="account" color={color} size={size} />
