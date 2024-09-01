@@ -11,6 +11,18 @@ export default function App() {
   const [dist, setDist] = useState(null);
   const [farEnough, setFarEnough] = useState(false);
 
+  const updatePosition = async () => {
+    let { status } = await Location.requestForegroundPermissionsAsync();
+    if (status !== 'granted') {
+      alert('Permission to access location was denied');
+      return;
+    }
+
+    let location = await Location.getCurrentPositionAsync({});
+    setLocation(location);
+  };
+
+
   useEffect(() => {
     (async () => {
       
@@ -53,6 +65,7 @@ export default function App() {
       }
     }
     setFarEnough(false);
+    updatePosition();
 
   }
 
@@ -77,7 +90,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <MapView
+      {!location ? (
+        <MapView
         style={styles.map}
         provider={MapView.PROVIDER_GOOGLE}
         initialRegion={{
@@ -89,8 +103,24 @@ export default function App() {
       >
         <Marker
           coordinate={{ latitude: 37.78825, longitude: -122.4324 }}
-        />
-      </MapView>
+          />
+          </MapView>
+      ) : (
+        <MapView
+        style={styles.map}
+        provider={MapView.PROVIDER_GOOGLE}
+        initialRegion={{
+          latitude: location.coords.latitude,
+          longitude: location.coords.longitude,
+          latitudeDelta: 0.0922,
+          longitudeDelta: 0.0421,
+        }}
+      >
+        <Marker
+          coordinate={{ latitude: location.coords.latitude, longitude: location.coords.longitude }}
+          />
+          </MapView>
+      )}
 
       {!isRunning ? (
         <View>
