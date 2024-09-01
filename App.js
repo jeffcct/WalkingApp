@@ -10,7 +10,14 @@ import HistoryScreen from "./Screens/HistoryScreen";
 import ChallengesScreen from "./Screens/ChallengesScreen";
 import ProfileScreen from "./Screens/ProfileScreen";
 
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import LoginScreen from "./Screens/LoginScreen"
+
+import { onAuthStateChanged, User } from 'firebase/auth'
+import { FIREBASE_AUTH } from "./FirebaseConfig";
+
 const Tab = createBottomTabNavigator();
+const Stack = createNativeStackNavigator(); // http1122#
 
 function MyTabs() {
   return (
@@ -61,10 +68,28 @@ function MyTabs() {
 }
 
 export default function App() {
+  const [user, setUser] = useState(null);
+  useEffect( () => {
+    onAuthStateChanged(FIREBASE_AUTH, (user) => {
+      // console.log('user', user);
+      setUser(user);
+    })
+  });
+
   return (
     <NavigationContainer>
-      <MyTabs />
-      <StatusBar style="auto" />
+      {user ? (
+        // <div>
+          <MyTabs />
+          // <StatusBar style="auto" />
+        // </div>
+      ) : 
+      (
+        <Stack.Navigator initialRouteName="Login">
+        <Stack.Screen name="Login" component={LoginScreen} />
+        </Stack.Navigator>
+      )}
+      
     </NavigationContainer>
   );
 }
