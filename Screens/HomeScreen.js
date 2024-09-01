@@ -5,7 +5,7 @@ import Header from "../Screens/Header";
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
+    <View style={styles.headerContainer}>
       <Header />
     </View>
   );
